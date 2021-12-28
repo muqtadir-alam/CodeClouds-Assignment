@@ -67,7 +67,7 @@ const Header = () => {
 	}
 
 	if (error) {
-		return <p>{error.message}</p>;
+		// return <p>{error.message}</p>;
 	}
 
 	const localNews = position => {
